@@ -790,7 +790,7 @@
       <div class="hero-content">
         <h1 class="hero-title">AmiVerse: The Ultimate Student App</h1>
         <p class="hero-subtitle">Unlock your academic potential with the all-in-one app designed specifically for the students of AUR by the students of AUR.</p>
-        <a href="#download" class="cta-button">Download Now</a>
+        <a onclick="downloadFromDrive()" class="cta-button">Download Now</a>
       </div>
     </div>
     <div class="hero-image">
@@ -849,7 +849,7 @@
       <h2 class="download-title">Ready to Transform Your Academic Life?</h2>
       <p class="download-subtitle">Download AmiVerse today and join thousands of students already improving their grades and reducing stress.</p>
       <div class="download-buttons">
-        <a href="#" class="download-button">
+        <a onclick="downloadFromDrive()" class="download-button">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="14 3 14 8 19 8"/>
             <path d="M17 21H7a2 2 0 01-2-2V5a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"/>
@@ -941,6 +941,13 @@
 </a>
 
 <script>
+  function downloadFromDrive() {
+    const fileId = '1FMg-JV5wQoKggH_Xk-eAey777nNfZK_T';
+    const link = document.createElement('a');
+    link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    link.click();
+  }
+  
   document.addEventListener('DOMContentLoaded', function() {
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
