@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="AmiVerse - The ultimate student app for Amity University Rajasthan (AUR). Created by Bhavya Soni. Stay connected, access notes, internships, announcements, and more in one platform.">
+  <meta name="keywords" content="AmiVerse, Amity University Rajasthan, AUR, Bhavya Soni, student app, university app, campus app, Amity app, study materials, internships, announcements">
+  <meta name="author" content="Bhavya Soni">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="AmiVerse - The Ultimate Student App for Amity University Rajasthan">
+  <meta property="og:description" content="Streamline your campus life with AmiVerse. Access notes, internships, announcements, and connect with fellow students at AUR.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://amiverse.com">
+  <meta property="og:image" content="https://amiverse.com/logo.png">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AmiVerse - Student App for Amity University Rajasthan">
+  <meta name="twitter:description" content="Your complete campus companion. Stay informed, connected, and organized.">
+  <meta name="twitter:image" content="https://amiverse.com/logo.png">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://amiverse.com">
+  
+  <title>AmiVerse - Student App for Amity University Rajasthan | Bhavya Soni</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+  
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <img src="logo.png" alt="AmiVerse Logo" class="logo-img">
+        <span class="logo-text">AmiVerse</span>
+      </a>
+      
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#team">Team</a>
+        <a href="#download">Download</a>
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <div class="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#team">Team</a>
+      <a href="#download">Download</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to <span class="gradient-text">AmiVerse</span></h1>
+        <p class="hero-subtitle">Your Complete Digital Ecosystem for Amity University Rajasthan</p>
+        <p class="hero-description">Stay informed, connected, and organized. All your campus needs in one powerful platform.</p>
+        <div class="hero-cta">
+          <a href="#download" class="btn btn-primary">Download App</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <img src="home.jpg" alt="AmiVerse App Screenshot" class="app-screenshot">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About <span class="gradient-text">AmiVerse</span></h2>
+        <p class="section-subtitle">One Platform. Endless Possibilities.</p>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <p>AmiVerse is a student-centric digital ecosystem designed to streamline communication, collaboration, and campus engagement at Amity University Rajasthan.</p>
+          
+          <p>Created to solve the ongoing problem of scattered information across WhatsApp groups, informal chats, and unorganized channels, AmiVerse provides one structured platform where students can stay informed, connect meaningfully, and access essential resources without confusion or clutter.</p>
+          
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>100+</h3>
+              <p>Active Users</p>
+            </div>
+            <div class="stat-card">
+              <h3>15+</h3>
+              <p>Features</p>
+            </div>
+            <div class="stat-card">
+              <h3>1.0</h3>
+              <p>Version</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-visual">
+          <div class="visual-card">
+            <h3>Our Mission</h3>
+            <p>To create a unified digital space that empowers students with instant access to information, resources, and community.</p>
+          </div>
+          <div class="visual-card">
+            <h3>Our Vision</h3>
+            <p>To become the essential companion for every student at Amity University Rajasthan, making campus life simpler and more connected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Powerful <span class="gradient-text">Features</span></h2>
+        <p class="section-subtitle">Everything you need for your campus journey</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📢</div>
+          <h3>Real-Time Announcements</h3>
+          <p>Never miss important updates, events, or notices from university and clubs.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Public Posts</h3>
+          <p>Share ideas, ask questions, and engage with the community in a structured environment.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">💼</div>
+          <h3>Internship Listings</h3>
+          <p>Discover curated internship opportunities tailored for your course and interests.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Study Materials</h3>
+          <p>Access notes, past papers, and resources shared by peers and seniors.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Lost & Found</h3>
+          <p>Report and find lost items on campus with our dedicated module.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Club Management</h3>
+          <p>Stay updated with club activities, events, and join communities that match your interests.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h3>Project Showcase</h3>
+          <p>Display your projects and discover innovative work by fellow students.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h3>Leaderboard</h3>
+          <p>Track achievements and compete with peers in a friendly environment.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">👤</div>
+          <h3>Student Profiles</h3>
+          <p>Create your personalized profile and connect with like-minded students.</p>
+        </div>
+        
+        <div class="feature-card upcoming">
+          <div class="feature-icon">🗺️</div>
+          <h3>Campus Navigation</h3>
+          <p>Navigate the campus easily with our interactive map feature.</p>
+          <span class="badge">Coming Soon</span>
+        </div>
+        
+        <div class="feature-card upcoming">
+          <div class="feature-icon">📍</div>
+          <h3>Snap Map</h3>
+          <p>See where your friends are on campus (Coming Soon)</p>
+          <span class="badge">Coming Soon</span>
+        </div>
+        
+        <div class="feature-card upcoming">
+          <div class="feature-icon">✅</div>
+          <h3>Attendance Tracker</h3>
+          <p>Keep track of your attendance and stay on top of requirements (Coming Soon)</p>
+          <span class="badge">Coming Soon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Meet the <span class="gradient-text">Team</span></h2>
+        <p class="section-subtitle">The passionate minds behind AmiVerse</p>
+      </div>
+      
+      <div class="team-content">
+        <p class="team-intro">AmiVerse was created by students, for students. Our team understands the challenges of university life because we live them every day. We're committed to making campus life easier, more organized, and more connected.</p>
+        
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-member-img">
+              <img src="bhavya.jpg" alt="Bhavya Soni">
+            </div>
+            <h3>Bhavya Soni</h3>
+            <p class="role">Founder</p>
+            <p class="bio">Python-powered developer and emerging tech mind focused on building smart, modern solutions.</p>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/bhavya-soni-amity/" target="_blank" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+          <div class="team-card">
+            <div class="team-member-img">
+              <img src="sourabh.jpg" alt="Sourabh Shrivastava">
+            </div>
+            <h3>Sourabh Shrivastava</h3>
+            <p class="role">Co-Founder</p>
+            <p class="bio">Python-powered developer and emerging tech mind focused on building smart, modern solutions.</p>
+            <div class="team-social">
+              <a href="https://www.linkedin.com/in/bhavya-soni-amity/" target="_blank" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="other-members-section" style="padding: 80px 20px; background: #f8f9fa;">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    
+    <div style="text-align: center; margin-bottom: 50px;">
+      <h2 style="font-size: 2.5rem; font-weight: 700; color: #19359c; margin-bottom: 12px;">Other Members</h2>
+      <p style="font-size: 1.1rem; color: #6c757d;">The amazing people behind the scenes</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 25px;">
+      
+      <!-- Member Card 1 -->
+      <div style="background: white; border-radius: 15px; padding: 30px 20px; box-shadow: 0 10px 30px rgba(25, 53, 156, 0.1); text-align: center; transition: all 0.3s ease; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 15px 40px rgba(25, 53, 156, 0.15)'; this.style.borderColor='rgba(68, 216, 220, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(25, 53, 156, 0.1)'; this.style.borderColor='transparent';">
+        <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, rgba(68, 216, 220, 0.2), rgba(25, 53, 156, 0.2)); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 2rem; font-weight: 700; color: #19359c; border: 3px solid rgba(68, 216, 220, 0.5);">
+          <img src="pawan.jpg" alt="Pawan Manghnani" style="border-radius: 50%;">
+        </div>
+        <h3 style="font-size: 1.2rem; font-weight: 700; color: #1a1a1a; margin-bottom: 8px;">Pawan Manghnani</h3>
+        <p style="font-size: 0.95rem; font-weight: 600; color: rgba(68, 216, 220, 1); margin-bottom: 15px;">General Manager</p>
+        <a href="https://www.linkedin.com/in/pawan-manghnani/" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; background: rgba(68, 216, 220, 0.1); color: #19359c; text-decoration: none; border-radius: 20px; font-size: 0.85rem; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.background='linear-gradient(135deg, rgba(68, 216, 220, 1), #19359c)'; this.style.color='white';" onmouseout="this.style.background='rgba(68, 216, 220, 0.1)'; this.style.color='#19359c';">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+
+      <!-- Member Card 2 -->
+      <div style="background: white; border-radius: 15px; padding: 30px 20px; box-shadow: 0 10px 30px rgba(25, 53, 156, 0.1); text-align: center; transition: all 0.3s ease; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 15px 40px rgba(25, 53, 156, 0.15)'; this.style.borderColor='rgba(68, 216, 220, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(25, 53, 156, 0.1)'; this.style.borderColor='transparent';">
+        <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, rgba(68, 216, 220, 0.2), rgba(25, 53, 156, 0.2)); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 2rem; font-weight: 700; color: #19359c; border: 3px solid rgba(68, 216, 220, 0.5);">
+          MT
+        </div>
+        <h3 style="font-size: 1.2rem; font-weight: 700; color: #1a1a1a; margin-bottom: 8px;">Mayur Tak</h3>
+        <p style="font-size: 0.95rem; font-weight: 600; color: rgba(68, 216, 220, 1); margin-bottom: 15px;">Marketing Lead</p>
+        <a href="https://www.linkedin.com/in/mayur-tak-887132261/" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; background: rgba(68, 216, 220, 0.1); color: #19359c; text-decoration: none; border-radius: 20px; font-size: 0.85rem; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.background='linear-gradient(135deg, rgba(68, 216, 220, 1), #19359c)'; this.style.color='white';" onmouseout="this.style.background='rgba(68, 216, 220, 0.1)'; this.style.color='#19359c';">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+
+      <!-- Member Card 3 -->
+      <div style="background: white; border-radius: 15px; padding: 30px 20px; box-shadow: 0 10px 30px rgba(25, 53, 156, 0.1); text-align: center; transition: all 0.3s ease; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 15px 40px rgba(25, 53, 156, 0.15)'; this.style.borderColor='rgba(68, 216, 220, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(25, 53, 156, 0.1)'; this.style.borderColor='transparent';">
+        <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, rgba(68, 216, 220, 0.2), rgba(25, 53, 156, 0.2)); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 2rem; font-weight: 700; color: #19359c; border: 3px solid rgba(68, 216, 220, 0.5);">
+          Null
+        </div>
+        <h3 style="font-size: 1.2rem; font-weight: 700; color: #1a1a1a; margin-bottom: 8px;">Needed</h3>
+        <p style="font-size: 0.95rem; font-weight: 600; color: rgba(68, 216, 220, 1); margin-bottom: 15px;">Community Manager</p>
+        <a href="https://www.linkedin.com/in/username" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; background: rgba(68, 216, 220, 0.1); color: #19359c; text-decoration: none; border-radius: 20px; font-size: 0.85rem; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.background='linear-gradient(135deg, rgba(68, 216, 220, 1), #19359c)'; this.style.color='white';" onmouseout="this.style.background='rgba(68, 216, 220, 0.1)'; this.style.color='#19359c';">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+
+      <!-- Member Card 4 -->
+      <div style="background: white; border-radius: 15px; padding: 30px 20px; box-shadow: 0 10px 30px rgba(25, 53, 156, 0.1); text-align: center; transition: all 0.3s ease; border: 2px solid transparent;" onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 15px 40px rgba(25, 53, 156, 0.15)'; this.style.borderColor='rgba(68, 216, 220, 0.5)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(25, 53, 156, 0.1)'; this.style.borderColor='transparent';">
+        <div style="width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, rgba(68, 216, 220, 0.2), rgba(25, 53, 156, 0.2)); display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 2rem; font-weight: 700; color: #19359c; border: 3px solid rgba(68, 216, 220, 0.5);">
+          Null
+        </div>
+        <h3 style="font-size: 1.2rem; font-weight: 700; color: #1a1a1a; margin-bottom: 8px;">Needed</h3>
+        <p style="font-size: 0.95rem; font-weight: 600; color: rgba(68, 216, 220, 1); margin-bottom: 15px;">Social Media Manager</p>
+        <a href="https://www.linkedin.com/in/username" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; background: rgba(68, 216, 220, 0.1); color: #19359c; text-decoration: none; border-radius: 20px; font-size: 0.85rem; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.background='linear-gradient(135deg, rgba(68, 216, 220, 1), #19359c)'; this.style.color='white';" onmouseout="this.style.background='rgba(68, 216, 220, 0.1)'; this.style.color='#19359c';">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Responsive styles for mobile -->
+<style>
+@media (max-width: 768px) {
+  .other-members-section div[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
+  <!-- Download Section -->
+  <section class="download-section" id="download">
+    <div class="container">
+      <div class="download-content">
+        <h2 class="download-title">Ready to Transform Your Campus Experience?</h2>
+        <p class="download-subtitle">Join thousands of students already using AmiVerse to stay connected and organized.</p>
+        
+        <div class="download-buttons">
+          <button onclick="downloadFromPlayStore()" class="btn btn-download">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 17v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/>
+              <polyline points="8 12 12 16 16 12"/>
+              <line x1="12" y1="2" x2="12" y2="16"/>
+            </svg>
+            Download for Android
+          </button>
+        </div>
+        
+        <p class="download-note">Available on Google Play Store</p>
+      </div>
+    </div>
+    
+    <div class="download-shapes">
+      <div class="shape shape-5"></div>
+      <div class="shape shape-6"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">We'd love to hear from you</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3>Location</h3>
+            <p>E-cell, 3rd Floor, E-block<br>Amity University Rajasthan<br>Jaipur, Rajasthan</p>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <h3>Email</h3>
+            <p><a href="mailto:amiverse.feedback@gmail.com">amiverse.feedback@gmail.com</a></p>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 2h-3a5 5 0 0 0-5 5v3H7v4h2v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </div>
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/amiverse/" target="_blank" aria-label="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/amiverse.amity" target="_blank" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="mailto:amiverse.feedback@gmail.com" aria-label="Email">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="logo.png" alt="AmiVerse Logo" class="footer-logo">
+          <p>Empowering students at Amity University Rajasthan with a unified digital ecosystem.</p>
+        </div>
+        
+        <div class="footer-links-group">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#team">Team</a>
+        </div>
+        
+        <div class="footer-links-group">
+          <h4>Support</h4>
+          <a href="#download">Download</a>
+          <a href="#contact">Contact</a>
+          <a href="mailto:amiverse.feedback@gmail.com">Feedback</a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 AmiVerse. All rights reserved. | Made with ❤️ by students for students</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
