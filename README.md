@@ -1,5 +1,3 @@
----
-
 # **Amiverse – Official Website**
 
 **Amiverse** is a student-centric digital ecosystem designed to enhance communication, collaboration, and the overall campus experience at **Amity University Rajasthan**. It aims to solve the long-standing issue of scattered information across WhatsApp groups and informal channels by providing one unified platform for everything students need.
