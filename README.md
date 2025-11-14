@@ -59,7 +59,3 @@ Track attendance and stay aware of academic requirements.
 ## 📌 **Project Status**
 
 Amiverse is actively under development, with continuous improvements and upcoming features aimed at elevating the student experience.
-
----
-
-Boss, if you want a **logo section**, **screenshots layout**, or **contribution guidelines**, I can add those too.
